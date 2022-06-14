@@ -1,0 +1,10 @@
+GET http://localhost:3040/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiIsImlhdCI6MTY1NTIwOTUwNn0.pprPPE0kfR4b3zNOtvr2UgwmToZ1oTueSBHevgzZzow
+###
+
+POST http://localhost:3040/login
+Content-Type: application/json
+
+{
+    "username":"John"
+}
