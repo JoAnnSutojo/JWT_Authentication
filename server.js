@@ -72,7 +72,6 @@ function authoriseToken(req, res, next) {
     })
 }
 
-// listen to port number: 3000
 const PORT = process.env.SERVER_PORT;
 app.listen(
     PORT, 
